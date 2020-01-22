@@ -1,0 +1,55 @@
+PODS:
+  - Cards (1.4.0):
+    - Player (= 0.13.0)
+  - CircleMenu (4.1.0)
+  - fluid-slider (1.1.0):
+    - pop
+  - HGRippleRadarView (0.1.2)
+  - Player (0.13.0)
+  - pop (1.0.12)
+  - Realm (4.3.1):
+    - Realm/Headers (= 4.3.1)
+  - Realm/Headers (4.3.1)
+  - RealmSwift (4.3.1):
+    - Realm (= 4.3.1)
+  - SCLAlertView (0.8)
+  - SnapKit (4.0.1)
+
+DEPENDENCIES:
+  - Cards
+  - CircleMenu
+  - fluid-slider
+  - HGRippleRadarView
+  - RealmSwift
+  - SCLAlertView
+  - SnapKit (~> 4.0.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SCLAlertView
+  trunk:
+    - Cards
+    - CircleMenu
+    - fluid-slider
+    - HGRippleRadarView
+    - Player
+    - pop
+    - Realm
+    - RealmSwift
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Cards: 45ae6bd0eca7b5e8016d3b6cb30b60b04753f68f
+  CircleMenu: a66095199a5e26f19acbb212f077010257767fe5
+  fluid-slider: 68037ac7247f16a89f3e24ff5d0167c8eea6f50b
+  HGRippleRadarView: 5379e27634c09222ebc836671c7425ad7b257cc4
+  Player: 968d8d07d923bcdd6f7e4091c9e306eb44a5f7a4
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  Realm: 31dc40934081ef740f60feedc46d88473cbfeb40
+  RealmSwift: b5199e9a41f67b99f51acf6874a6166f5fbe93d1
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+
+PODFILE CHECKSUM: 88106df8afaf9afd7d769be3a673a091145adb78
+
+COCOAPODS: 1.8.4

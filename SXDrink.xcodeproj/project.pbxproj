@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B34A7D023D15F0B00BC0C2D /* SXSportDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B34A7CF23D15F0B00BC0C2D /* SXSportDataManager.swift */; };
+		5B34A7D223D19B3C00BC0C2D /* SXHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B34A7D123D19B3C00BC0C2D /* SXHelper.swift */; };
+		5B34A7D423D1B0EC00BC0C2D /* SXMineSettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B34A7D323D1B0EC00BC0C2D /* SXMineSettingController.swift */; };
+		5B34A7D723D1B32500BC0C2D /* SXMineSportDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B34A7D523D1B32500BC0C2D /* SXMineSportDataCell.swift */; };
+		5B34A7D823D1B32500BC0C2D /* SXMineSportDataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B34A7D623D1B32500BC0C2D /* SXMineSportDataCell.xib */; };
+		5B662F1223D6F4AF00A564F5 /* SXDrinkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B662F1123D6F4AF00A564F5 /* SXDrinkModel.swift */; };
+		5B818CDB23C5CF43006D9788 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B818CDA23C5CF43006D9788 /* AppDelegate.swift */; };
+		5B818CE223C5CF43006D9788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B818CE023C5CF43006D9788 /* Main.storyboard */; };
+		5B818CE423C5CF48006D9788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B818CE323C5CF48006D9788 /* Assets.xcassets */; };
+		5B818CE723C5CF48006D9788 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B818CE523C5CF48006D9788 /* LaunchScreen.storyboard */; };
+		5B818CEE23C5CFB2006D9788 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B818CDE23C5CF43006D9788 /* ViewController.swift */; };
+		5B818CF323C5D0AD006D9788 /* SXTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B818CF223C5D0AD006D9788 /* SXTabBarController.swift */; };
+		5B818CF523C5DB04006D9788 /* SXNavgationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B818CF423C5DB04006D9788 /* SXNavgationController.swift */; };
+		5B818CF723C5DB1D006D9788 /* SXBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B818CF623C5DB1D006D9788 /* SXBaseViewController.swift */; };
+		5B86A79F23D069C9007F785D /* SXPickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B86A79E23D069C9007F785D /* SXPickView.swift */; };
+		5B978CC423D6A28F00F57D23 /* SXNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B978CC323D6A28F00F57D23 /* SXNotificationManager.swift */; };
+		5BDDDE9623CD678900EB8018 /* SXPickDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDDE9523CD678900EB8018 /* SXPickDateView.swift */; };
+		5BDDDE9E23CDC0A600EB8018 /* TKLiquidSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDDE9923CDC0A600EB8018 /* TKLiquidSwitch.swift */; };
+		5BDDDE9F23CDC0A600EB8018 /* TKBaseSwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDDE9A23CDC0A600EB8018 /* TKBaseSwitcher.swift */; };
+		5BDDDEA023CDC0A600EB8018 /* TKSimpleSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDDE9B23CDC0A600EB8018 /* TKSimpleSwitch.swift */; };
+		5BDDDEA123CDC0A600EB8018 /* TKSmileSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDDE9C23CDC0A600EB8018 /* TKSmileSwitch.swift */; };
+		5BDDDEA223CDC0A600EB8018 /* TKExchangeSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDDE9D23CDC0A600EB8018 /* TKExchangeSwitch.swift */; };
+		5BDF8CE323C81CF30097A78F /* SXBDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDF8CE223C81CF30097A78F /* SXBDManager.swift */; };
+		5BDF8D0923C82EB90097A78F /* BaiduMapAPI_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BDF8D0423C82EB90097A78F /* BaiduMapAPI_Map.framework */; };
+		5BDF8D0A23C82EB90097A78F /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BDF8D0623C82EB90097A78F /* libcrypto.a */; };
+		5BDF8D0B23C82EB90097A78F /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BDF8D0723C82EB90097A78F /* libssl.a */; };
+		5BDF8D0C23C82EB90097A78F /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BDF8D0823C82EB90097A78F /* BaiduMapAPI_Base.framework */; };
+		5BDF8D0E23C82F290097A78F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BDF8D0D23C82F290097A78F /* CoreGraphics.framework */; };
+		5BDF8D1023C82F310097A78F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BDF8D0F23C82F310097A78F /* CoreLocation.framework */; };
+		5BDF8D1223C82F410097A78F /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BDF8D1123C82F410097A78F /* libc++.tbd */; };
+		5BDF8D1423C82F4E0097A78F /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BDF8D1323C82F4E0097A78F /* libsqlite3.0.tbd */; };
+		5BDF8D1623C82F570097A78F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BDF8D1523C82F570097A78F /* OpenGLES.framework */; };
+		5BDF8D1823C82F600097A78F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BDF8D1723C82F600097A78F /* QuartzCore.framework */; };
+		5BDF8D1923C82F680097A78F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BDF8CE923C81DC10097A78F /* Security.framework */; };
+		5BDF8D1A23C82F730097A78F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BDF8CE523C81D820097A78F /* SystemConfiguration.framework */; };
+		5BDF8D1C23C82F7B0097A78F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BDF8D1B23C82F7B0097A78F /* libz.tbd */; };
+		5BDF8D1E23C830200097A78F /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5BDF8D1D23C830200097A78F /* mapapi.bundle */; };
+		5BDF8D2023C8478E0097A78F /* BMKLocationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BDF8D1F23C8478E0097A78F /* BMKLocationKit.framework */; };
+		5BDF8D2223C869200097A78F /* SXMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDF8D2123C869200097A78F /* SXMacro.swift */; };
+		5BDF8D2423C86EB70097A78F /* SXRunController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDF8D2323C86EB70097A78F /* SXRunController.swift */; };
+		5BDF8D2623C8794D0097A78F /* SXDrinkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDF8D2523C8794D0097A78F /* SXDrinkController.swift */; };
+		5BDF8D2923C8796E0097A78F /* SXDrinkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDF8D2723C8796E0097A78F /* SXDrinkCell.swift */; };
+		5BDF8D2A23C8796E0097A78F /* SXDrinkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BDF8D2823C8796E0097A78F /* SXDrinkCell.xib */; };
+		5BED969623CF0AD40031F4EA /* SXMineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BED969523CF0AD40031F4EA /* SXMineController.swift */; };
+		5BEFBB8323CC3B6900C8DDCB /* SXRunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEFBB8223CC3B6900C8DDCB /* SXRunView.swift */; };
+		5BEFBB8523CC3D6A00C8DDCB /* SXRunView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BEFBB8423CC3D6A00C8DDCB /* SXRunView.xib */; };
+		5BF025FF23D0028E0074A98F /* SXMinePlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF025FD23D0028E0074A98F /* SXMinePlayerCell.swift */; };
+		5BF0260023D0028E0074A98F /* SXMinePlayerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF025FE23D0028E0074A98F /* SXMinePlayerCell.xib */; };
+		5BF0260323D006320074A98F /* SXMineShowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF0260123D006320074A98F /* SXMineShowCell.swift */; };
+		5BF0260423D006320074A98F /* SXMineShowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF0260223D006320074A98F /* SXMineShowCell.xib */; };
+		5BF0260823D0104E0074A98F /* SXPolicyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF0260723D0104E0074A98F /* SXPolicyController.swift */; };
+		5BF0260A23D031230074A98F /* SXMineSportDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF0260923D031230074A98F /* SXMineSportDataController.swift */; };
+		5BF0261123D049050074A98F /* SXMineSportDataStyleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF0260F23D049050074A98F /* SXMineSportDataStyleCell.swift */; };
+		5BF0261223D049050074A98F /* SXMineSportDataStyleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF0261023D049050074A98F /* SXMineSportDataStyleCell.xib */; };
+		5BF51F4423C6C315002054D7 /* SXHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF51F4323C6C315002054D7 /* SXHomeController.swift */; };
+		5BF51F4723C6C3D7002054D7 /* SXHealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF51F4623C6C3D7002054D7 /* SXHealthManager.swift */; };
+		988E90FAC0587041A654BE17 /* Pods_SXDrink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC35F13138EA2EFF1F9DA7E6 /* Pods_SXDrink.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EF6115E792600209B0D9740 /* Pods-SXDrink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SXDrink.release.xcconfig"; path = "Target Support Files/Pods-SXDrink/Pods-SXDrink.release.xcconfig"; sourceTree = "<group>"; };
+		5B34A7CF23D15F0B00BC0C2D /* SXSportDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SXSportDataManager.swift; sourceTree = "<group>"; };
+		5B34A7D123D19B3C00BC0C2D /* SXHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SXHelper.swift; sourceTree = "<group>"; };
+		5B34A7D323D1B0EC00BC0C2D /* SXMineSettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SXMineSettingController.swift; sourceTree = "<group>"; };
+		5B34A7D523D1B32500BC0C2D /* SXMineSportDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SXMineSportDataCell.swift; sourceTree = "<group>"; };
+		5B34A7D623D1B32500BC0C2D /* SXMineSportDataCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXMineSportDataCell.xib; sourceTree = "<group>"; };
+		5B662F1123D6F4AF00A564F5 /* SXDrinkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SXDrinkModel.swift; sourceTree = "<group>"; };
+		5B818CD723C5CF43006D9788 /* 健康生活.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "健康生活.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B818CDA23C5CF43006D9788 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B818CDC23C5CF43006D9788 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5B818CDE23C5CF43006D9788 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B818CE123C5CF43006D9788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B818CE323C5CF48006D9788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B818CE623C5CF48006D9788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B818CE823C5CF48006D9788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B818CF223C5D0AD006D9788 /* SXTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SXTabBarController.swift; sourceTree = "<group>"; };
+		5B818CF423C5DB04006D9788 /* SXNavgationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SXNavgationController.swift; sourceTree = "<group>"; };
+		5B818CF623C5DB1D006D9788 /* SXBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SXBaseViewController.swift; sourceTree = "<group>"; };
+		5B86A79E23D069C9007F785D /* SXPickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SXPickView.swift; sourceTree = "<group>"; };
+		5B978CC323D6A28F00F57D23 /* SXNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SXNotificationManager.swift; sourceTree = "<group>"; };
+		5BDDDE9523CD678900EB8018 /* SXPickDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SXPickDateView.swift; sourceTree = "<group>"; };
+		5BDDDE9923CDC0A600EB8018 /* TKLiquidSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKLiquidSwitch.swift; sourceTree = "<group>"; };
+		5BDDDE9A23CDC0A600EB8018 /* TKBaseSwitcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKBaseSwitcher.swift; sourceTree = "<group>"; };
+		5BDDDE9B23CDC0A600EB8018 /* TKSimpleSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKSimpleSwitch.swift; sourceTree = "<group>"; };
+		5BDDDE9C23CDC0A600EB8018 /* TKSmileSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKSmileSwitch.swift; sourceTree = "<group>"; };
+		5BDDDE9D23CDC0A600EB8018 /* TKExchangeSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKExchangeSwitch.swift; sourceTree = "<group>"; };
+		5BDF8CE223C81CF30097A78F /* SXBDManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SXBDManager.swift; sourceTree = "<group>"; };
+		5BDF8CE523C81D820097A78F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5BDF8CE723C81DB80097A78F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		5BDF8CE923C81DC10097A78F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5BDF8CF823C822F60097A78F /* 健康生活-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "健康生活-Bridging-Header.h"; sourceTree = "<group>"; };
+		5BDF8D0423C82EB90097A78F /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
+		5BDF8D0623C82EB90097A78F /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		5BDF8D0723C82EB90097A78F /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		5BDF8D0823C82EB90097A78F /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
+		5BDF8D0D23C82F290097A78F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5BDF8D0F23C82F310097A78F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5BDF8D1123C82F410097A78F /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		5BDF8D1323C82F4E0097A78F /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		5BDF8D1523C82F570097A78F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		5BDF8D1723C82F600097A78F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5BDF8D1B23C82F7B0097A78F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		5BDF8D1D23C830200097A78F /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = BaiduMapAPI_Map.framework/mapapi.bundle; sourceTree = "<group>"; };
+		5BDF8D1F23C8478E0097A78F /* BMKLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BMKLocationKit.framework; sourceTree = "<group>"; };
+		5BDF8D2123C869200097A78F /* SXMacro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SXMacro.swift; sourceTree = "<group>"; };
+		5BDF8D2323C86EB70097A78F /* SXRunController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SXRunController.swift; sourceTree = "<group>"; };
+		5BDF8D2523C8794D0097A78F /* SXDrinkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SXDrinkController.swift; sourceTree = "<group>"; };
+		5BDF8D2723C8796E0097A78F /* SXDrinkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SXDrinkCell.swift; sourceTree = "<group>"; };
+		5BDF8D2823C8796E0097A78F /* SXDrinkCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXDrinkCell.xib; sourceTree = "<group>"; };
+		5BED969523CF0AD40031F4EA /* SXMineController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SXMineController.swift; sourceTree = "<group>"; };
+		5BEFBB8223CC3B6900C8DDCB /* SXRunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SXRunView.swift; sourceTree = "<group>"; };
+		5BEFBB8423CC3D6A00C8DDCB /* SXRunView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXRunView.xib; sourceTree = "<group>"; };
+		5BF025FD23D0028E0074A98F /* SXMinePlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SXMinePlayerCell.swift; sourceTree = "<group>"; };
+		5BF025FE23D0028E0074A98F /* SXMinePlayerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXMinePlayerCell.xib; sourceTree = "<group>"; };
+		5BF0260123D006320074A98F /* SXMineShowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SXMineShowCell.swift; sourceTree = "<group>"; };
+		5BF0260223D006320074A98F /* SXMineShowCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXMineShowCell.xib; sourceTree = "<group>"; };
+		5BF0260723D0104E0074A98F /* SXPolicyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SXPolicyController.swift; sourceTree = "<group>"; };
+		5BF0260923D031230074A98F /* SXMineSportDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SXMineSportDataController.swift; sourceTree = "<group>"; };
+		5BF0260F23D049050074A98F /* SXMineSportDataStyleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SXMineSportDataStyleCell.swift; sourceTree = "<group>"; };
+		5BF0261023D049050074A98F /* SXMineSportDataStyleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXMineSportDataStyleCell.xib; sourceTree = "<group>"; };
+		5BF51F4323C6C315002054D7 /* SXHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SXHomeController.swift; sourceTree = "<group>"; };
+		5BF51F4623C6C3D7002054D7 /* SXHealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SXHealthManager.swift; sourceTree = "<group>"; };
+		E633772147BD0577E51A7B2C /* Pods-SXDrink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SXDrink.debug.xcconfig"; path = "Target Support Files/Pods-SXDrink/Pods-SXDrink.debug.xcconfig"; sourceTree = "<group>"; };
+		EC35F13138EA2EFF1F9DA7E6 /* Pods_SXDrink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SXDrink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B818CD423C5CF43006D9788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BDF8D1C23C82F7B0097A78F /* libz.tbd in Frameworks */,
+				5BDF8D1A23C82F730097A78F /* SystemConfiguration.framework in Frameworks */,
+				5BDF8D1923C82F680097A78F /* Security.framework in Frameworks */,
+				5BDF8D1823C82F600097A78F /* QuartzCore.framework in Frameworks */,
+				5BDF8D1623C82F570097A78F /* OpenGLES.framework in Frameworks */,
+				5BDF8D1423C82F4E0097A78F /* libsqlite3.0.tbd in Frameworks */,
+				5BDF8D1223C82F410097A78F /* libc++.tbd in Frameworks */,
+				5BDF8D1023C82F310097A78F /* CoreLocation.framework in Frameworks */,
+				5BDF8D0E23C82F290097A78F /* CoreGraphics.framework in Frameworks */,
+				5BDF8D0A23C82EB90097A78F /* libcrypto.a in Frameworks */,
+				5BDF8D0C23C82EB90097A78F /* BaiduMapAPI_Base.framework in Frameworks */,
+				5BDF8D2023C8478E0097A78F /* BMKLocationKit.framework in Frameworks */,
+				5BDF8D0923C82EB90097A78F /* BaiduMapAPI_Map.framework in Frameworks */,
+				5BDF8D0B23C82EB90097A78F /* libssl.a in Frameworks */,
+				988E90FAC0587041A654BE17 /* Pods_SXDrink.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		280C42B0D3E8E5C2E936E41E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E633772147BD0577E51A7B2C /* Pods-SXDrink.debug.xcconfig */,
+				1EF6115E792600209B0D9740 /* Pods-SXDrink.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5B6E10C023D407140000EB3B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B662F1123D6F4AF00A564F5 /* SXDrinkModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5B818CCE23C5CF43006D9788 = {
+			isa = PBXGroup;
+			children = (
+				5B818CD923C5CF43006D9788 /* SXDrink */,
+				5B818CD823C5CF43006D9788 /* Products */,
+				5BDF8CE423C81D820097A78F /* Frameworks */,
+				280C42B0D3E8E5C2E936E41E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		5B818CD823C5CF43006D9788 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B818CD723C5CF43006D9788 /* 健康生活.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B818CD923C5CF43006D9788 /* SXDrink */ = {
+			isa = PBXGroup;
+			children = (
+				5BDDDE9723CDC09B00EB8018 /* SXLibs */,
+				5BDF8D0223C82EA60097A78F /* BDMapSDK */,
+				5BF51F4523C6C36B002054D7 /* SXManager */,
+				5B818CF123C5D05C006D9788 /* SXClass */,
+				5B818CF023C5D039006D9788 /* SXUIKit */,
+				5B818CDA23C5CF43006D9788 /* AppDelegate.swift */,
+				5B818CDC23C5CF43006D9788 /* SceneDelegate.swift */,
+				5B818CDE23C5CF43006D9788 /* ViewController.swift */,
+				5BDF8CF823C822F60097A78F /* 健康生活-Bridging-Header.h */,
+				5B818CE023C5CF43006D9788 /* Main.storyboard */,
+				5B818CE323C5CF48006D9788 /* Assets.xcassets */,
+				5B818CE523C5CF48006D9788 /* LaunchScreen.storyboard */,
+				5B818CE823C5CF48006D9788 /* Info.plist */,
+			);
+			path = SXDrink;
+			sourceTree = "<group>";
+		};
+		5B818CF023C5D039006D9788 /* SXUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				5BDDDE9523CD678900EB8018 /* SXPickDateView.swift */,
+				5B86A79E23D069C9007F785D /* SXPickView.swift */,
+				5B818CF223C5D0AD006D9788 /* SXTabBarController.swift */,
+				5B818CF423C5DB04006D9788 /* SXNavgationController.swift */,
+				5B818CF623C5DB1D006D9788 /* SXBaseViewController.swift */,
+				5BDF8D2123C869200097A78F /* SXMacro.swift */,
+			);
+			path = SXUIKit;
+			sourceTree = "<group>";
+		};
+		5B818CF123C5D05C006D9788 /* SXClass */ = {
+			isa = PBXGroup;
+			children = (
+				5B6E10C023D407140000EB3B /* Model */,
+				5BF0260523D009010074A98F /* VC */,
+				5BF0260623D009010074A98F /* View */,
+			);
+			path = SXClass;
+			sourceTree = "<group>";
+		};
+		5BDDDE9723CDC09B00EB8018 /* SXLibs */ = {
+			isa = PBXGroup;
+			children = (
+				5BDDDE9823CDC0A600EB8018 /* TKSwitcherCollection */,
+			);
+			path = SXLibs;
+			sourceTree = "<group>";
+		};
+		5BDDDE9823CDC0A600EB8018 /* TKSwitcherCollection */ = {
+			isa = PBXGroup;
+			children = (
+				5BDDDE9923CDC0A600EB8018 /* TKLiquidSwitch.swift */,
+				5BDDDE9A23CDC0A600EB8018 /* TKBaseSwitcher.swift */,
+				5BDDDE9B23CDC0A600EB8018 /* TKSimpleSwitch.swift */,
+				5BDDDE9C23CDC0A600EB8018 /* TKSmileSwitch.swift */,
+				5BDDDE9D23CDC0A600EB8018 /* TKExchangeSwitch.swift */,
+			);
+			path = TKSwitcherCollection;
+			sourceTree = "<group>";
+		};
+		5BDF8CE423C81D820097A78F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BDF8D1B23C82F7B0097A78F /* libz.tbd */,
+				5BDF8D1723C82F600097A78F /* QuartzCore.framework */,
+				5BDF8D1523C82F570097A78F /* OpenGLES.framework */,
+				5BDF8D1323C82F4E0097A78F /* libsqlite3.0.tbd */,
+				5BDF8D1123C82F410097A78F /* libc++.tbd */,
+				5BDF8D0F23C82F310097A78F /* CoreLocation.framework */,
+				5BDF8D0D23C82F290097A78F /* CoreGraphics.framework */,
+				5BDF8CE923C81DC10097A78F /* Security.framework */,
+				5BDF8CE723C81DB80097A78F /* CoreTelephony.framework */,
+				5BDF8CE523C81D820097A78F /* SystemConfiguration.framework */,
+				EC35F13138EA2EFF1F9DA7E6 /* Pods_SXDrink.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BDF8D0223C82EA60097A78F /* BDMapSDK */ = {
+			isa = PBXGroup;
+			children = (
+				5BDF8D0323C82EB90097A78F /* BaiduMap_IOSSDK_Lib */,
+			);
+			path = BDMapSDK;
+			sourceTree = "<group>";
+		};
+		5BDF8D0323C82EB90097A78F /* BaiduMap_IOSSDK_Lib */ = {
+			isa = PBXGroup;
+			children = (
+				5BDF8D1F23C8478E0097A78F /* BMKLocationKit.framework */,
+				5BDF8D1D23C830200097A78F /* mapapi.bundle */,
+				5BDF8D0423C82EB90097A78F /* BaiduMapAPI_Map.framework */,
+				5BDF8D0523C82EB90097A78F /* thirdlibs */,
+				5BDF8D0823C82EB90097A78F /* BaiduMapAPI_Base.framework */,
+			);
+			path = BaiduMap_IOSSDK_Lib;
+			sourceTree = "<group>";
+		};
+		5BDF8D0523C82EB90097A78F /* thirdlibs */ = {
+			isa = PBXGroup;
+			children = (
+				5BDF8D0623C82EB90097A78F /* libcrypto.a */,
+				5BDF8D0723C82EB90097A78F /* libssl.a */,
+			);
+			path = thirdlibs;
+			sourceTree = "<group>";
+		};
+		5BF0260523D009010074A98F /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				5BF51F4323C6C315002054D7 /* SXHomeController.swift */,
+				5BDF8D2323C86EB70097A78F /* SXRunController.swift */,
+				5BED969523CF0AD40031F4EA /* SXMineController.swift */,
+				5BDF8D2523C8794D0097A78F /* SXDrinkController.swift */,
+				5BF0260723D0104E0074A98F /* SXPolicyController.swift */,
+				5BF0260923D031230074A98F /* SXMineSportDataController.swift */,
+				5B34A7D323D1B0EC00BC0C2D /* SXMineSettingController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		5BF0260623D009010074A98F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5BF0260123D006320074A98F /* SXMineShowCell.swift */,
+				5BF0260223D006320074A98F /* SXMineShowCell.xib */,
+				5BF025FD23D0028E0074A98F /* SXMinePlayerCell.swift */,
+				5BF025FE23D0028E0074A98F /* SXMinePlayerCell.xib */,
+				5BEFBB8223CC3B6900C8DDCB /* SXRunView.swift */,
+				5BEFBB8423CC3D6A00C8DDCB /* SXRunView.xib */,
+				5BDF8D2723C8796E0097A78F /* SXDrinkCell.swift */,
+				5BDF8D2823C8796E0097A78F /* SXDrinkCell.xib */,
+				5B34A7D523D1B32500BC0C2D /* SXMineSportDataCell.swift */,
+				5B34A7D623D1B32500BC0C2D /* SXMineSportDataCell.xib */,
+				5BF0260F23D049050074A98F /* SXMineSportDataStyleCell.swift */,
+				5BF0261023D049050074A98F /* SXMineSportDataStyleCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5BF51F4523C6C36B002054D7 /* SXManager */ = {
+			isa = PBXGroup;
+			children = (
+				5BF51F4623C6C3D7002054D7 /* SXHealthManager.swift */,
+				5BDF8CE223C81CF30097A78F /* SXBDManager.swift */,
+				5B34A7CF23D15F0B00BC0C2D /* SXSportDataManager.swift */,
+				5B34A7D123D19B3C00BC0C2D /* SXHelper.swift */,
+				5B978CC323D6A28F00F57D23 /* SXNotificationManager.swift */,
+			);
+			path = SXManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B818CD623C5CF43006D9788 /* SXDrink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B818CEB23C5CF48006D9788 /* Build configuration list for PBXNativeTarget "SXDrink" */;
+			buildPhases = (
+				478E573A0AFB31CA62EFDC7B /* [CP] Check Pods Manifest.lock */,
+				5B818CD323C5CF43006D9788 /* Sources */,
+				5B818CD423C5CF43006D9788 /* Frameworks */,
+				5B818CD523C5CF43006D9788 /* Resources */,
+				471ACEBE70DDA4DA6262A123 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SXDrink;
+			productName = SXDrink;
+			productReference = 5B818CD723C5CF43006D9788 /* 健康生活.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B818CCF23C5CF43006D9788 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SX;
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Roddick;
+				TargetAttributes = {
+					5B818CD623C5CF43006D9788 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5B818CD223C5CF43006D9788 /* Build configuration list for PBXProject "SXDrink" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B818CCE23C5CF43006D9788;
+			productRefGroup = 5B818CD823C5CF43006D9788 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B818CD623C5CF43006D9788 /* SXDrink */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B818CD523C5CF43006D9788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF0260423D006320074A98F /* SXMineShowCell.xib in Resources */,
+				5BDF8D2A23C8796E0097A78F /* SXDrinkCell.xib in Resources */,
+				5B34A7D823D1B32500BC0C2D /* SXMineSportDataCell.xib in Resources */,
+				5B818CE723C5CF48006D9788 /* LaunchScreen.storyboard in Resources */,
+				5BDF8D1E23C830200097A78F /* mapapi.bundle in Resources */,
+				5BF0261223D049050074A98F /* SXMineSportDataStyleCell.xib in Resources */,
+				5B818CE423C5CF48006D9788 /* Assets.xcassets in Resources */,
+				5B818CE223C5CF43006D9788 /* Main.storyboard in Resources */,
+				5BEFBB8523CC3D6A00C8DDCB /* SXRunView.xib in Resources */,
+				5BF0260023D0028E0074A98F /* SXMinePlayerCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		471ACEBE70DDA4DA6262A123 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SXDrink/Pods-SXDrink-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SXDrink/Pods-SXDrink-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SXDrink/Pods-SXDrink-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		478E573A0AFB31CA62EFDC7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SXDrink-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B818CD323C5CF43006D9788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BDF8D2623C8794D0097A78F /* SXDrinkController.swift in Sources */,
+				5B662F1223D6F4AF00A564F5 /* SXDrinkModel.swift in Sources */,
+				5BF0260823D0104E0074A98F /* SXPolicyController.swift in Sources */,
+				5B86A79F23D069C9007F785D /* SXPickView.swift in Sources */,
+				5BDF8D2223C869200097A78F /* SXMacro.swift in Sources */,
+				5BDDDE9F23CDC0A600EB8018 /* TKBaseSwitcher.swift in Sources */,
+				5BF51F4723C6C3D7002054D7 /* SXHealthManager.swift in Sources */,
+				5B818CF523C5DB04006D9788 /* SXNavgationController.swift in Sources */,
+				5BED969623CF0AD40031F4EA /* SXMineController.swift in Sources */,
+				5BF025FF23D0028E0074A98F /* SXMinePlayerCell.swift in Sources */,
+				5BDDDEA123CDC0A600EB8018 /* TKSmileSwitch.swift in Sources */,
+				5BEFBB8323CC3B6900C8DDCB /* SXRunView.swift in Sources */,
+				5B818CEE23C5CFB2006D9788 /* ViewController.swift in Sources */,
+				5B34A7D223D19B3C00BC0C2D /* SXHelper.swift in Sources */,
+				5BDDDEA223CDC0A600EB8018 /* TKExchangeSwitch.swift in Sources */,
+				5BDDDE9E23CDC0A600EB8018 /* TKLiquidSwitch.swift in Sources */,
+				5B34A7D423D1B0EC00BC0C2D /* SXMineSettingController.swift in Sources */,
+				5B978CC423D6A28F00F57D23 /* SXNotificationManager.swift in Sources */,
+				5B818CF323C5D0AD006D9788 /* SXTabBarController.swift in Sources */,
+				5BF51F4423C6C315002054D7 /* SXHomeController.swift in Sources */,
+				5BF0261123D049050074A98F /* SXMineSportDataStyleCell.swift in Sources */,
+				5BDF8D2423C86EB70097A78F /* SXRunController.swift in Sources */,
+				5BDDDEA023CDC0A600EB8018 /* TKSimpleSwitch.swift in Sources */,
+				5BF0260323D006320074A98F /* SXMineShowCell.swift in Sources */,
+				5BDF8CE323C81CF30097A78F /* SXBDManager.swift in Sources */,
+				5B34A7D023D15F0B00BC0C2D /* SXSportDataManager.swift in Sources */,
+				5B818CDB23C5CF43006D9788 /* AppDelegate.swift in Sources */,
+				5BF0260A23D031230074A98F /* SXMineSportDataController.swift in Sources */,
+				5B818CF723C5DB1D006D9788 /* SXBaseViewController.swift in Sources */,
+				5BDDDE9623CD678900EB8018 /* SXPickDateView.swift in Sources */,
+				5B34A7D723D1B32500BC0C2D /* SXMineSportDataCell.swift in Sources */,
+				5BDF8D2923C8796E0097A78F /* SXDrinkCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B818CE023C5CF43006D9788 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B818CE123C5CF43006D9788 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B818CE523C5CF48006D9788 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B818CE623C5CF48006D9788 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B818CE923C5CF48006D9788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B818CEA23C5CF48006D9788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B818CEC23C5CF48006D9788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E633772147BD0577E51A7B2C /* Pods-SXDrink.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = 3T5CQF929J;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SXDrink/GDSDK",
+					"$(PROJECT_DIR)/SXDrink/BDMapSDK/BaiduMap_IOSSDK_Lib",
+				);
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				INFOPLIST_FILE = SXDrink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SXDrink/BDMapSDK/BaiduMap_IOSSDK_Lib/thirdlibs",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cubee.SXDrink;
+				PRODUCT_NAME = "健康生活";
+				PROVISIONING_PROFILE_SPECIFIER = univweDev;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/roddick/Documents/company/SXDrink/SXDrink/健康生活-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5B818CED23C5CF48006D9788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EF6115E792600209B0D9740 /* Pods-SXDrink.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = 3T5CQF929J;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SXDrink/GDSDK",
+					"$(PROJECT_DIR)/SXDrink/BDMapSDK/BaiduMap_IOSSDK_Lib",
+				);
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				INFOPLIST_FILE = SXDrink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SXDrink/BDMapSDK/BaiduMap_IOSSDK_Lib/thirdlibs",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cubee.SXDrink;
+				PRODUCT_NAME = "健康生活";
+				PROVISIONING_PROFILE_SPECIFIER = univweDev;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/roddick/Documents/company/SXDrink/SXDrink/健康生活-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B818CD223C5CF43006D9788 /* Build configuration list for PBXProject "SXDrink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B818CE923C5CF48006D9788 /* Debug */,
+				5B818CEA23C5CF48006D9788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B818CEB23C5CF48006D9788 /* Build configuration list for PBXNativeTarget "SXDrink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B818CEC23C5CF48006D9788 /* Debug */,
+				5B818CED23C5CF48006D9788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B818CCF23C5CF43006D9788 /* Project object */;
+}

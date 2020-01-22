@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="349" id="KGk-i7-Jjw" customClass="SXMinePlayerCell" customModule="健康生活" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="353" height="262"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="353" height="262"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view tag="500" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="07O-mI-fKO" customClass="CardPlayer" customModule="Cards">
+                        <rect key="frame" x="10" y="10" width="333" height="242"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="07O-mI-fKO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="BeW-w6-5Di"/>
+                    <constraint firstAttribute="trailing" secondItem="07O-mI-fKO" secondAttribute="trailing" constant="10" id="Mpg-2j-OsW"/>
+                    <constraint firstItem="07O-mI-fKO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="lgV-pc-OMC"/>
+                    <constraint firstAttribute="bottom" secondItem="07O-mI-fKO" secondAttribute="bottom" constant="10" id="no2-TQ-aiR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="155.79710144927537" y="200.89285714285714"/>
+        </tableViewCell>
+    </objects>
+</document>
